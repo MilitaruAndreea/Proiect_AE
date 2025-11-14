@@ -1,4 +1,3 @@
-// server/utils/token.js
 const jwt = require('jsonwebtoken');
 
 const verifyToken = (req, res, next) => {
@@ -25,7 +24,6 @@ const verifyToken = (req, res, next) => {
         next();
     })
 }
-
 
 const isValidToken = (token) => {
     try {

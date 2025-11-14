@@ -1,4 +1,3 @@
-// client/src/pages/HomePage.jsx
 import { Link } from 'react-router'
 
 export default function HomePage() {
